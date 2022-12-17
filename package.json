@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^5.0.7",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
+    "fetch": "^1.1.0",
+    "lodash": "^4.17.21",
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.6",
+    "yarn": "^1.22.19"
   }
 }
