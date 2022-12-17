@@ -6,5 +6,4 @@ npm run dev
 # or
 yarn dev
 ```
-
-O
+author: dangtrunghieu2304@gmail.com
