@@ -5,7 +5,7 @@ import Icon from './Icon'
 import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
 import Image from 'next/image'
-import Link from 'next/Link'
+import Link from 'next/link'
 import Menu from 'antd/lib/menu'
 import Dropdown from 'antd/lib/dropdown'
 

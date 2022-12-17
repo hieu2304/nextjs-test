@@ -277,6 +277,8 @@ export default function Home() {
   const [tags, setTags] = useState([]);
   const [banner, setBanner] = useState('')
   const [detail, setDetail] = useState({})
+  
+  const enableButton = description !== '' && banner !== '' && cost !== '' && address !== ''
 
   const onChangeDate = (date, dateString) => {
     setDate(dateString)
@@ -392,7 +394,6 @@ export default function Home() {
                           alt="logo-banner"
                           width="24"
                           height="24"
-                          lazyload
                         />
                           <div className="text-banner">Add a banner</div>
                       </div>
@@ -403,7 +404,6 @@ export default function Home() {
                           alt="logo-live"
                           width="739"
                           height="453"
-                          lazyload
                           className="logo-banner-live"
                         />
                       </div>
@@ -514,7 +514,6 @@ export default function Home() {
                             alt="logo-live-detail"
                             width="739"
                             height="453"
-                            lazyload
                             className="logo-banner-live"
                           />
                         </div>
@@ -535,7 +534,6 @@ export default function Home() {
                     onClick={() => onClickBanner(item)}
                     src={item}
                     alt={`banner ${index}`}
-                    lazyload
                     width="133"
                     height="133"
                     style={{marginRight: '8px', marginTop: '8px'}}
